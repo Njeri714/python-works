@@ -118,13 +118,21 @@
 # so others don't pick the picked numbers
 
 
-# taken numbers
-numTaken = [3,5,7,11,13]
+# # taken numbers
+# numTaken = [3,5,7,11,13]
 
-print("Available numbers")
+# print("Available numbers")
 
-# loop
-for i in range(1,21):
-    if i in numTaken:
-        continue
-    print(i)
+# # loop
+# for i in range(1,21):
+#     if i in numTaken:
+#         continue
+#     print(i)
+
+# break statements
+number = 0
+while True:
+    print("Ilove you " + str(number))
+    number +=1
+    if number ==7 :
+        break
